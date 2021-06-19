@@ -79,6 +79,7 @@
 ### 단락 태그
 
 > p(Paragraph) : 단락을 표시
+> 
 > 단락과 단락사이를 구분하는 수평선
 ```
 <hr> - Horizontal Rule
