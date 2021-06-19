@@ -175,6 +175,7 @@ https://www.tablesgenerator.com/html_tables
 > Tag : img
 > 
 > Attribute : src(image 위치, 파일명), alt(대체텍스트)
+
 ` : backtick
 ```
 <img src="image.jpg" alt="대체텍스트">
