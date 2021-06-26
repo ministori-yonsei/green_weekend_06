@@ -223,7 +223,9 @@ https://www.tablesgenerator.com/html_tables
 > 이미지, 동영상, 오디오는 직접 입력하는 것이 아니고 외부 파일을 삽입 => 임베드(embed) 콘텐츠
 
 
+### 웹사이트 템플릿 디자인
 
+https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 
 
 
