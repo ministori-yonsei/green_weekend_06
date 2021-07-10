@@ -281,6 +281,10 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > id는 주로 서버에서 불러오는 데이터를 표시하는 위치에 고유하게 사용 => 백엔드 개발에서 주로 사용
 > 
 > class는 주로 css 스타일 적용, javascript 인터랙션 적용할때 사용 => 프론트엔드 개발에서 주로 사용
+> 
+> id는 하나의 HTML Element에 대해서 하나의 이름만 존재, HTML 문서내에서 고유해야 함
+> 
+> class는 하나의 HTML Element에 대해서 여러개의 이름을 지정할 수 있고, HTML 문서내에서 여러 곳에서 공통 사용 가능함
 
 ### CSS 작성방법
 
