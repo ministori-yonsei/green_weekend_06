@@ -313,4 +313,13 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > camel case : gnbDepth1 => javascipt의 변수/함수
 > 
 > Pascal case : GnbDepth1 => javascript의 클래스
+
+### OOCSS(Object Oriented CSS)
+
+> HTML Element를 대상화시키는 과정에서 Element 하나하나를 모두 객체화 시키는 이론
+> 
+> HTML Element 모두 각각 id,class attibute를 사용해서 이름을 지정해줌
+
+
+
   
