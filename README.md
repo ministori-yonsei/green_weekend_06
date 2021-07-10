@@ -320,6 +320,13 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > 
 > HTML Element 모두 각각 id,class attibute를 사용해서 이름을 지정해줌
 
+### web color
+> color mode
+> 
+> - 가산혼합(빛의혼합) : RGB 컬러모드
+
+> 표현할 수 있는 색의 개수
+> 
 
 
   
