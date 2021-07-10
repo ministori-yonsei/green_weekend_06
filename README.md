@@ -326,7 +326,12 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > - 가산혼합(빛의혼합) : RGB 컬러모드
 
 > 표현할 수 있는 색의 개수
-> 
+> 1byte = 8bit = 256개(0~255)
+> RGB => 3byte => 24bit 트루컬러 : 16777216가지 색
+
+> 색 표현 코드값
+> 16진수(hex code) : #AABA01
+> 10진수 : (255, 255, 255)
 
 
   
