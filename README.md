@@ -351,4 +351,37 @@ color:rgba(42, 189, 81, 0.5);
 > - alpha : 추가 채널
 > - opacity : 불투명도
 
+### Text CSS
+- color
+- text-align : left, center, right, justify
+- text-decoration : underline, line-through, overline, none
+- text-transform : uppercase, lowercase, Capitalize
+- text-indent : 20px / -20px
+- letter-spacing : 2px / -2px
+- line-height: 20px / 1.8(배수)
+- word-spacing
+- white-space : nowrap
+- text-shadow
+
+# font CSS
+- font-family : "Times New Roman", Times, serif;
+  - 순서대로 대체 폰트를 찾음
+  - sans-serif, serif, monospace, cursive, fantasy 5개의 기본폰트는 font-family 사용시 종류에 맞게 항상 끝에 기본으로 사용됨
+  - 웹사이트에 사용하는 폰트는 웹폰트(서버에 폰트파일을 저장해서 사용)로 사용하는 데, 업로드된 파일을 직접 사용하는 경우, 웹폰트 서비스를 사용하는 경우 2가지가 있음
+  - 대표적인 웹폰트 서비스 : 구글 폰트, 눈누
+- font-size
+- font-style : italic
+- font-weight : bold / 500
+  - 폰트 굵기가 다양한 경우 숫자로 굵기를 표현
+
+### Box Model
+> 구성요소
+> - width/height : 너비/높이
+> - padding : 안쪽 여백
+> - border : 테두리
+> - margin : 바깥 여백
+
+
+
+
   
