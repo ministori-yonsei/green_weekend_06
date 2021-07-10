@@ -338,5 +338,17 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > 
 > 10진수 : (255, 255, 255)
 
+> CSS 사용법
+
+```
+color:#2abd51;
+color:rgb(42, 189, 81);
+color:rgba(42, 189, 81, 0.5);
+```
+
+> 투명도를 의미하는 용어
+> - transparent : 투명한
+> - alpha : 추가 채널
+> - opacity : 불투명도
 
   
