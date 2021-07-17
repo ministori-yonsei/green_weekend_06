@@ -427,7 +427,17 @@ color:rgba(42, 189, 81, 0.5);
 > 
 > border-left:1px solid red;
 
+### 가로 배치
 
+※ inline 요소는 박스 모델이 제대로 적용되지 않기 때문에 레이아웃 구성 요소로 사용하기 어렵다.
+※ block 요소를 레이아웃 구성 요소로 사용함 => 세로 배치는 기본 구성
+
+가로 배치 기법
+- float
+- flex
+- grid
+
+### float
 
   
   
