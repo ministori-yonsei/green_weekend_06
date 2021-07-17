@@ -491,6 +491,10 @@ div{
 > 디자인 요소로 표현
 > - background-image
 
+> IR(Image Replacement : 이미지 대체) 기법
+> - HTML Element에는 텍스트로 표시
+> - 화면(브라우저)에 표시할때는 이미지로 표현
+
 ### background
 > background-color
 > 
