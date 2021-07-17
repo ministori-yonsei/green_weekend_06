@@ -438,8 +438,29 @@ color:rgba(42, 189, 81, 0.5);
 - grid
 
 ### float
+> left, right 값을 사용해서 가로 배치
+> left, right는 부모요소를 기준으로 방향성을 표현
+> 일반적으로 왼쪽을 기준으로 순서대로 배치할 때 left만 사용해서 배치
 
-  
+> float은 박스가 띄워지는 현상이 있기 때문에 인접해 있는 박스의 배치가 깨질수 있음
+> float 박스를 부모요소로 감싸서 인접해 있는 박스와 float 박스를 감싸고 있는 부모요소와의 관계로 만들어줌
+> float 박스를 감싸는 부모요소는 높이가 0이 될수 있기 때문에 그것을 clear 할수 있는 비어있는 자식요소를 넣어줌
+```
+HTML
+<div class="float-container>
+  <div class="float-box>text</div>
+  <div class="float-box>text</div>
+  <div class="clearfix"></div>
+</div>
+
+CSS
+.float-box{
+  float:left;
+}
+.clearfix{
+  clear:both;
+}
+```
   
   
   
