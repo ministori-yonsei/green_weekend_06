@@ -491,7 +491,23 @@ div{
 > 디자인 요소로 표현
 > - background-image
 
-
+### background
+> background-color
+> 
+> background-image
+> 
+> background-repeat
+> - repeat-x(가로만 반복) / repeat-y(세로만 반복) / no-repeat(반복없음)
+> 
+> background-position
+> - left, center, right / top, center, bottom : 키워드
+> - px 좌표 표시
+```
+div{
+  background-position:left top;(앞:가로방향/뒤:세로방향)
+  background-position:100px 200px;(앞:가로방향/뒤:세로방향)
+}
+```
 
 
 
