@@ -483,6 +483,28 @@ div{
 <input type="button" value="확인">
 <button type="button">확인</button>
 ```
+
+### 이미지 표현 방법
+> 콘텐트로 표현
+> - img 태그
+> 
+> 디자인 요소로 표현
+> - background-image
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
   
