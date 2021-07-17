@@ -363,7 +363,7 @@ color:rgba(42, 189, 81, 0.5);
 - white-space : nowrap
 - text-shadow
 
-# font CSS
+### font CSS
 - font-family : "Times New Roman", Times, serif;
   - 순서대로 대체 폰트를 찾음
   - sans-serif, serif, monospace, cursive, fantasy 5개의 기본폰트는 font-family 사용시 종류에 맞게 항상 끝에 기본으로 사용됨
@@ -381,7 +381,42 @@ color:rgba(42, 189, 81, 0.5);
 > - border : 테두리
 > - margin : 바깥 여백
 
+### width/height
+> width : 너비/가로길이
+> 
+> height : 높이/세로길이
+
+> auto : 기본값
+> - Block : 너비 : 부모요소를 기준으로 채워짐 / 높이 : 콘텐츠(자식요소)를 기준으로 맞춰짐
+> - inline : 너비/높이 : 콘텐트(자식요소)에 맞춰짐
+
+### padding
+> 안쪽여백
+
+> padding-top
+> 
+> padding-right
+> 
+> padding-bottom
+> 
+> padding-left
+
+> padding : 10px 20px 30px 40px(top right bottom left)
+> 
+> padding : 10px 20px 30px(top right/left bottom)
+> 
+> padding : 10px 20px(top/bottom right/left)
+> 
+> padding : 10px(top/right/bottom/left)
+
+### margin
+> padding과 사용방법이 같음
 
 
 
+  
+  
+  
+  
+  
   
