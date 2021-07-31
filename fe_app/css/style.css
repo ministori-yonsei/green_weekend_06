@@ -65,6 +65,8 @@ font-family: 'Ubuntu', sans-serif; */
     justify-content:space-between;
     width:1060px;
     margin:30px auto;
+    padding-top:50px;
+    position:relative;
 }
 
 #logo{
@@ -104,6 +106,26 @@ font-family: 'Ubuntu', sans-serif; */
 .gnb-depth2.active{
     display:block;
 }
+
+.weather{
+    display:flex;
+    position:absolute;
+    top:0;
+    right:0;
+    color:#626262;
+    font-family: 'Playfair Display', serif;
+    font-size:13px;
+}
+
+.weather-description{
+    text-transform: capitalize;
+}
+
+.weather-image{
+    width:70px;
+    margin-top:-25px;
+}
+
 
 .section01{
     text-align:center;

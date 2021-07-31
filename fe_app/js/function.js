@@ -16,11 +16,10 @@ $(function(){
         .then(function(weatherJson){
             $('.weather-description').text(weatherJson.weather[0].description);
 
-            console.log(weatherJson.weather[0].icon);
             $('.weather-image').attr('src', 'http://openweathermap.org/img/wn/10d@2x.png');
-
 
             // Math : 수학 계산용 객체 ( 내장 객체 )
             console.log(Math.floor(weatherJson.main.temp-273));
+            $('.weather-temp').text(Math.floor(weatherJson.main.temp-273));
         });
 });
