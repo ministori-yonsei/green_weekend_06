@@ -341,7 +341,7 @@ font-family: 'Ubuntu', sans-serif; */
 
     .header{
         width:auto;
-        padding:0 20px;
+        padding:30px 20px 0;
         flex-direction:column;
     }
 
