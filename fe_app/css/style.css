@@ -1,0 +1,420 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    color:black;
+    text-decoration:none;
+}
+
+mark{
+    background-color:transparent;
+}
+
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    width:1060px;
+    margin:30px auto;
+}
+
+#logo{
+    font-size:30px; /* px : 단위 */
+    font-family: 'Inconsolata', monospace;
+    text-transform:uppercase;
+    letter-spacing:6px
+}
+
+.gnb-list{
+    display:flex;
+}
+
+.gnb-item{
+    margin-left:100px;
+}
+
+.gnb-link{
+    font-size:14px;
+    font-family: 'Playfair Display', serif;
+    text-transform:uppercase;
+    color:#626262;
+    padding:10px 0;
+    display:block;
+}
+
+.gnb-depth2{
+    border:1px solid #626262;
+    padding:10px;
+    color:#626262;
+    font-family: 'Playfair Display', serif;
+    display:none; /* none: 화면에 숨김 */
+    position:absolute;
+    background:#fff;
+}
+
+.gnb-depth2.active{
+    display:block;
+}
+
+.section01{
+    text-align:center;
+    margin-bottom:100px;
+}
+
+.big-visual{
+    width:1060px;
+}
+
+.section02{
+    width:900px;
+    margin:0 auto;
+}
+
+.category{
+    font-size:14px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform:uppercase;
+    color:#b4ad9e;
+    margin-bottom:30px;
+}
+
+.section-heading{
+    font-size:30px;
+    font-family: 'Playfair Display', serif;
+    color:#626262;
+    margin-bottom:40px;
+}
+
+.paragraph{
+    font-size:14px;
+    font-family: 'Playfair Display', serif;
+    color:#626262;
+    line-height:24px;
+}
+
+.section03{
+    width:900px;
+    margin:0 auto;
+}
+
+.mb50{
+    margin-bottom:50px;
+}
+
+.float-container{
+    margin-top:130px;
+}
+
+.float-box{
+    float:left;
+    width:420px;
+    margin-right:60px;
+}
+
+.list-image{
+    margin-bottom:30px;
+}
+
+.hidden{
+    height:70px;
+    overflow:hidden;
+}
+
+.mr0{
+    margin-right:0;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.category{
+    display:block;
+}
+
+.section-heading{
+    display:block;
+}
+
+.load-more-wrap{
+    text-align:center;
+    margin-top:160px;
+}
+
+.load-more{
+    font-size:20px;
+    font-family: 'Playfair Display', serif;
+    color:#626262;
+    padding:20px 30px;
+    border:1px solid #626262;
+    display:inline-block;
+}
+
+.section04{
+    background:#f0f0f0;
+    padding:70px 0;
+    margin:120px 0;
+}
+
+.align-center{
+    text-align:center;
+}
+
+.email-wrap{
+    width:400px;
+    height:40px;
+    position:relative;
+    margin:0 auto;
+}
+
+.email-input{
+    width:400px;
+    border:0;
+    border-bottom:1px solid #000; /* #aa99ff => #a9f */
+    font-size:14px;
+    font-family: 'Playfair Display', serif;
+    height:40px;
+    background:transparent;
+}
+
+.email-send{
+    display:block;
+    width:32px;
+    height:17px;
+    text-indent:-99999px;
+    border:0;
+    background:url(https://raw.githubusercontent.com/ministori-yonsei/green_weekend_06/main/images/send_icon.png);
+    position:absolute;
+    right:0;
+    top:12px;
+}
+
+.icon-list{
+    width:730px;
+    margin:0 auto;
+    padding-left:170px;
+    position:relative;
+}
+
+.icon-list::before{
+    content:"";
+    display:block;
+    width:150px;
+    height:150px;
+    background:url(https://raw.githubusercontent.com/ministori-yonsei/green_weekend_06/main/images/cloud.png);
+    background-size:150px 150px;/* 앞:가로, 뒤:세로 */
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.footer{
+    padding-top:40px;
+    padding-bottom:50px;
+    background:#f0f0f0;
+    margin-top:120px;
+}
+
+.footer-inner{
+    width:1060px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+
+.footer-terms{
+    display:flex;
+}
+
+.footer-terms-item{
+    margin-right:30px;
+}
+
+.footer-terms-link{
+    color:#000000;
+}
+
+.footer-sns{
+    display:flex;
+}
+
+.footer-sns-item{
+    margin-left:30px;
+}
+
+.footer-sns-link{
+    display:block;
+    text-indent:-99999px;
+}
+
+.facebook{
+    width:8px;
+    height:14px;
+    background:url(https://raw.githubusercontent.com/ministori-yonsei/green_weekend_06/main/images/facebook.png);
+}
+
+.twitter{
+    width:18px;
+    height:13px;
+    background:url(https://raw.githubusercontent.com/ministori-yonsei/green_weekend_06/main/images/twitter.png);
+}
+
+.instagram{
+    width:15px;
+    height:15px;
+    background:url(https://raw.githubusercontent.com/ministori-yonsei/green_weekend_06/main/images/instagram.png);
+}
+
+/* smart phone */
+@media screen and (max-width:700px){
+
+    .header{
+        width:auto;
+        padding:0 20px;
+        flex-direction:column;
+    }
+
+    #logo{
+        text-align:center;
+    }
+
+    .gnb-list{
+        justify-content:center;
+    }
+
+    .gnb-item{
+        margin-left:16px;
+    }
+
+    .item1{
+        margin-left:0;
+    }
+
+    .big-visual{
+        width:100%;
+    }
+
+    .section02{
+        width:auto;
+        padding:0 20px;
+    }
+
+    .section-heading{
+        font-size:22px;
+    }
+
+    .paragraph{
+        text-align:justify;
+    }
+
+    .section03{
+        width:auto;
+        padding:0 20px;
+    }
+
+    .float-container{
+        margin-top:0;
+    }
+
+    .float-box{
+        margin-top:60px;
+        width:auto;
+        margin-right:0;
+    }
+
+    .list-image{
+        width:100%;
+    }
+
+    .load-more{
+        font-size:15px;
+        padding:15px;
+    }
+
+    .email-wrap{
+        width:auto;
+        padding:0 20px;
+    }
+
+    .email-input{
+        width:100%;
+    }
+
+    .email-send{
+        right:20px;
+    }
+
+    .icon-list{
+        width:auto;
+        padding:150px 20px 0 20px;
+    }
+
+    .icon-list::before{
+        left:20px;
+    }
+
+    .footer-inner{
+        width:auto;
+        padding:0 20px;
+        flex-direction:column;
+    }
+
+    .footer-sns{
+        margin-top:20px;
+    }
+
+    .footer-sns-item{
+        margin-left:0;
+        margin-right:30px;
+    }
+
+}
