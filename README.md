@@ -594,11 +594,40 @@ car.start();
 > - Keyboard Event : Key 입력
 
 > Event 감지 함수
-> - javascript : addEventListener()
-> - jquery : on()
+> - javascript : addEventListener() // 사용 이벤트 명칭 : click, mouseover, mouseout
+> 
+> - jquery : on() // 사용 이벤트 명칭 : click, mouseenter, mouseleave
 
-함수 : 익명함수 정리
+### 함수
 
+> 프로그래밍 코드 블록
+> 
+> 특정 실행 코드 부분을 그룹화
+```
+function : 함수 선언 키워드(예약어)
+
+// 함수 선언(정의)
+function 함수이름(매개변수1, 매개변수2){
+  //  실행코드
+}
+
+// 함수 사용(호출)
+함수이름(매개변수값);
+
+function printName(name){
+  console.log(name);
+}
+
+
+printName('javascript');
+```
+
+> 익명함수(anonymous function) : 이름없는 함수, 즉시 실행이 필요한 경우 사용
+```
+function(){
+  // 실행코드
+}
+```
 
 
 
