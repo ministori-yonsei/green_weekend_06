@@ -559,7 +559,28 @@ background:url(image.jpg);
 
 ## Javascript
 
+### Object
+
+> 동작, 기능의 대상 : 객체
+> 
+> 객체 : property, method
+```
+// 객체 : car
+
+// property
+car.weight = 300;
+
+// method
+car.start();
+```
+
 ### DOM
+
+> HTML Element를 대상화시켜 객체로 만든 것 : DOM(Document Object Model)
+> 
+> Javascript DOM : Javascript에서 HTML Element를 접근, 사용할 수 있도록 만든 DOM
+> 
+> jQuery DOM : Javascript DOM보다 좀 더 사용이 쉽도록 jquery에서 만든 DOM
 
 ### Event
 > 상황 변화에 따라 발생되는 신호
